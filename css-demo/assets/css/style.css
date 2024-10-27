@@ -1,7 +1,7 @@
 /* --------------- css-demo ------------------ */
 
 /* --------------- Color Scheme --------------
-Colors - #FBD5CE, #FEF1C9, #FFFFCB, #E7FDE9, 
+Colors - #FBD5CE, #FFE4CC, #FFFFCB, #E7FDE9, 
 #DFF9FD, #DBCCE6, #F2E6FF */
 
 /*  -------------- Box Sizing ----------------  */
@@ -25,7 +25,15 @@ html {
 
 
 body{
-  background-color: beige;
+  background-color: #FBD5CE;
   font-family: "Rakkas", serif;
     
+}
+
+
+header.primary{
+background-color: #FFE4CC;
+color:#FFFFCB;
+text-align: center;
+text-shadow: 2.5px 2.5px 10px #E7FDE9;
 }
