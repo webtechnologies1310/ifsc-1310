@@ -70,10 +70,10 @@ header.primary nav ul li a{
   color:#DBCCE6;
   font-size:1.2rem;
   text-decoration:none;
-  border:1.4px double #F2E6FF;
-  padding:6px 11px;
+  border:8px double #F2E6FF;
+  padding:3px 5.5px;
   background-color: rgba(251,213,206,1);
-  border-radius: 12px 4px 1 2px;
+  border-radius: 19px;
   transition:.5s;
 }
 
