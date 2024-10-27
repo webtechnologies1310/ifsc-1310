@@ -1,6 +1,10 @@
-/* ------css-demo------ */
+/* --------------- css-demo ------------------ */
 
-/*  ---------------Box Sizing-----------------  */
+/* --------------- Color Scheme --------------
+Colors - #FBD5CE, #FEF1C9, #FFFFCB, #E7FDE9, 
+#DFF9FD, #DBCCE6, #F2E6FF */
+
+/*  -------------- Box Sizing ----------------  */
 
 html {
     box-sizing: border-box;
@@ -20,6 +24,8 @@ html {
 
 
 
-body{background-color: beige;
+body{
+  background-color: beige;
+  font-family: "Rakkas", serif;
     
 }
