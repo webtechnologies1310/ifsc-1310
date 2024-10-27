@@ -27,6 +27,7 @@ html {
 body{
   background-color: #FBD5CE;
   font-family: "Rakkas", serif;
+  margin: 0;
     
 }
 
@@ -36,4 +37,22 @@ background-color: #FFE4CC;
 color:#FFFFCB;
 text-align: center;
 text-shadow: 2.5px 2.5px 10px #E7FDE9;
+/* T, R, B, L */ 
+padding: 23px 46px 23px 46px;
+}
+
+header.primary h1{
+/* top | left and right | bottom */
+font-size:2.7rem;
+margin: 23px 0 0; 
+}
+
+header.primary h1 a{
+color:#DFF9FD;
+text-decoration:none;
+}
+
+header.primary h2{
+  font-size:1.6rem;
+  margin: 0;
 }
