@@ -44,7 +44,7 @@ padding: 23px 46px 23px 46px;
 header.primary h1{
 /* top | left and right | bottom */
 font-size:2.7rem;
-margin: 23px 0 0; 
+margin:15px; 
 }
 
 header.primary h1 a{
@@ -60,7 +60,7 @@ header.primary h2{
 header.primary nav ul{
   display:flex;
   flex-direction:row;
-  justify-content:space-evenly; 
+  justify-content:space-around; 
   padding:7px 0;
 }
 header.primary nav ul li {
