@@ -106,7 +106,7 @@ header.primary nav ul li a:hover{
 
 #content h2{
   color:#FFE4CC;
-  border: 2.7px ridge #FFFFCB;
+  border: 5px ridge #FFFFCB;
 }
 
 #blog{
@@ -117,7 +117,7 @@ header.primary nav ul li a:hover{
 }
 
 #blog article.post{
-  box-shadow: 0 5px 9px rgba(231,253,233,1);
+  box-shadow: 0 10px 18px rgba(231,253,233,1);
   padding:11px;
   border-radius:6px;
   font-size:1rem;
@@ -125,7 +125,7 @@ header.primary nav ul li a:hover{
 }
 
 #blog article.post:hover {
-  box-shadow: 0 10px 18px rgba(223,249,253,1);
+  box-shadow: 0 12px 22px rgba(223,249,253,1);
 }
 
 #blog figure{
