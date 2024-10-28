@@ -14,6 +14,21 @@ html {
   *:after {
     box-sizing: inherit;
   }
+
+
+/*  -------------- Responsive Images ----------------  */
+
+img{
+  max-width:100%;
+}
+
+/* ---------- Utility Classes ------------ */ 
+
+.container{
+  width: 75vw;
+  max-width:965px;
+  margin:43px auto;
+}
   
 
 
@@ -57,6 +72,10 @@ header.primary h2{
   margin: 0;
 }
 
+header.primary nav{
+  max-width:965px;
+  margin:auto;
+}
 header.primary nav ul{
   display:flex;
   flex-direction:row;
@@ -81,10 +100,48 @@ header.primary nav ul li a:hover{
   background-color:rgba(231,253,233,1);
 }
 
+#content{
+  line-height:1.6;
+}
 
+#content h2{
+  color:#FFE4CC;
+  border: 2.7px ridge #FFFFCB;
+}
 
+#blog{
+  display:flex;
+  justify-content:space-around;
+  flex-direction:row;
+  gap:2rem;
+}
 
+#blog article.post{
+  box-shadow: 0 5px 9px rgba(231,253,233,1);
+  padding:11px;
+  border-radius:6px;
+  font-size:1rem;
+  transition: .5s;
+}
 
+#blog article.post:hover {
+  box-shadow: 0 10px 18px rgba(223,249,253,1);
+}
+
+#blog figure{
+  margin:0;
+}
+
+#blog figcaption {
+  text-transform:uppercase;
+  font-size: 0.8rem;
+  text-align: center;
+  color:#DBCCE6;
+}
+
+#blog .post a{
+  color:#F2E6FF;
+}
 
 
 
@@ -137,3 +194,4 @@ header.primary nav ul li a:hover{
 header.primary nav a {
   display:block;
 }
+
