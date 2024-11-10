@@ -30,10 +30,31 @@ max-width:965px;
 margin:43px auto;
 }
 
+.img-right{
+  float:right;
+  border: 10px dotted #A0C4FF;
+  padding:6px;
+  margin:13px 0 13px 23px;
+  border-radius: 60px;
+}
+
+.img-left{
+  float:left;
+  border: 3px groove salmon;
+  padding:6px;
+  margin: 10px 30px 10px 30px;
+  border-radius: 60px;
+}
+
+.img-center{
+  display:block;
+  margin: 25px auto;
+  border: 6px dotted #A0C4FF;
+  border-radius: 60px;
+}
 
 
-
-
+/* ------Global Styles------- */
 
 
 
@@ -115,6 +136,9 @@ display:flex;
 justify-content:space-around;
 flex-direction:row;
 gap:2rem;
+border-top: 2px dotted #DFF9FD;
+border-bottom: 2px dotted #A0C4FF;
+padding:40px 0 50px 0;
 }
 
 #blog article.post{
@@ -142,6 +166,49 @@ color:#DBCCE6;
 
 #blog .post a{
 color:#F2E6FF;
+}
+
+#practice h2{
+color:#DFF9FD;
+border-bottom:1.5px solid #DBCCE6;
+}
+
+#practice a{
+color:#FBD5CE;
+}
+
+practice a:hover{
+text-decoration:none;
+}
+
+#practice h3{
+  border-left: 8px groove lawngreen;
+  padding: 6px 0 6px 12px;
+  border-radius:12px;
+}
+
+table{
+  width:100%;
+  border:1px solid purple;
+  border-collapse:collapse;
+}
+caption{
+font-weight:bold;
+margin:10px;
+font-size:3rem;
+}
+thead{}
+tr:nth-child(even){
+background-color: rgba(0,0,0,0.1);
+}
+th{
+background-color:#DFF9FD;
+color:dodgerblue;
+padding:8.5px;
+}
+td{
+border:1px solid purple;
+padding:5px;
 }
 
 aside[role="complementary"]{
