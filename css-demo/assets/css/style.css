@@ -197,9 +197,15 @@ font-weight:bold;
 margin:10px;
 font-size:3rem;
 }
-thead{}
 tr:nth-child(even){
 background-color: rgba(0,0,0,0.1);
+}
+
+td:nth-child(n+2){
+  text-align:right;
+}
+tr:hover{
+  background-color: rgba(223,249,253,1);
 }
 th{
 background-color:#DFF9FD;
@@ -211,6 +217,44 @@ border:1px solid purple;
 padding:5px;
 }
 
+#practice ol{
+  list-style-type:lower-roman;
+}
+
+#practice ul li ul{
+  list-style-type:square;
+}
+
+#practice dl dt{
+  font-weight:bold;
+}
+
+dl dd{
+margin: 0;
+}
+
+dd+dt{
+  margin-top:23px;
+  color: forestgreen;
+}
+
+#practice blockquote {
+  border: 4px groove #7e2525;
+  padding: 20px 40px;
+  margin: 40px 80px;
+  border-radius: 30px 0;
+  background-color: #DFF9FD;
+  color: #0f49b4;
+  line-height: 1.4;
+  text-shadow: 1px 1px #FBD5CE;
+}
+
+#practice blockquote cite {
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  margin-top: 2rem;
+}
 aside[role="complementary"]{
 background: #F2E6FF;
 color:#FBD5CE;
