@@ -16,6 +16,12 @@ header.primary h1 a{
     color: #fffb00;
     text-decoration:none;
     }
+h2{
+    color:#fffb00;
+    text-decoration:none;
+    text-align:center;
+    font-size:2rem;
+}
 header.primary nav{
         max-width:1500px;
         margin:auto;
