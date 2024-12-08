@@ -21,14 +21,17 @@ h2{
     text-decoration:none;
     text-align:center;
     font-size:2rem;
+    text-shadow: 2px 2px 5px orange;
     
 }
 h3{
     color:#ffffff;
     text-decoration:none;
     text-align:left;
-    margin:3rem;
+    margin:5rem;
     font-size:2rem;
+    line-height:1.5;
+    text-shadow: 2px 2px 5px orange;
 }
 header.primary nav{
         max-width:1500px;
